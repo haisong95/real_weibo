@@ -1,16 +1,15 @@
-
-  development:
+development:
   adapter: postgresql
-  database: my_database_development
   host: localhost
+  username: 
+  password: 
+  database: development
+  encoding: UTF8
+
 test:
   adapter: postgresql
-  database: my_database_test
-  pool: 5
-  timeout: 5000
-
-production:
-  adapter: postgresql
-  database: my_database_production
-  pool: 5
-  timeout: 5000
+  host: localhost
+  username: 
+  password: 
+  database: test        # or whatever the name is
+  encoding: UTF8
